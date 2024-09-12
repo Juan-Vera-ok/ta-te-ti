@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "../App.css";
 
 export default function Game() {
-  const [turno, setTurno] = useState("X");
+  const [turno, setTurno] = useState("Circle");
   const [botones, setBotones] = useState(Array(9).fill("")); // Un array de 9 elementos vacío
   const [winner, setWinner] = useState(null);
 
